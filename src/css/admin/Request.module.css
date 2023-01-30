@@ -1,0 +1,54 @@
+.block {
+    margin-top: 10rem;
+}
+.list {
+    height: 80vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.item {
+    width: 73rem;
+    height: 8rem;
+    background-color: #fff;
+    box-shadow: 0 0 0.6rem 0.3rem rgba(0, 0, 0, 0.25);
+    border-radius: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-style: solid;
+    border-width: 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+.checked {
+    border-color: #00E676;
+}
+.not_checked {
+    border-color: #ffc107;
+}
+.item_flex {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7rem;
+    color: #000;
+    margin-bottom: 0;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.images {
+    margin-left: auto;
+}
+.image {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+.image:hover {
+    cursor: pointer;
+}
